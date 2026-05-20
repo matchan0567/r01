@@ -6,7 +6,7 @@
 /*   By: mumei <mumei@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 17:51:52 by mumei             #+#    #+#             */
-/*   Updated: 2026/05/20 18:16:32 by mumei            ###   ########.fr       */
+/*   Updated: 2026/05/20 20:36:20 by mumei            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 void	ft_putnbr_base(unsigned int n);
+void	ft_putstr(char *s);
+int		ft_printf(const char *, ...);
 #endif
